@@ -2,7 +2,8 @@
 alias gohome='cd ~'
 
 # edit this file in TextEdit
-alias editprofile='gohome; open -a TextEdit .bash_profile'
+alias editprofile='open -a TextEdit ~/.bash_profile'
+alias psjava='ps ax | grep java | grep -v grep'
 
 # show or hide hidden files
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder'
