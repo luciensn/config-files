@@ -40,7 +40,6 @@ ehthumbs.db
 Thumbs.db
 
 # Xcode
-*.xc*
 *xcuserdata*
 *.xccheckout*
 *.xcuserstate*

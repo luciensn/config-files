@@ -14,3 +14,6 @@ alias addspacer="defaults write com.apple.dock persistent-apps -array-add '{tile
 
 # coloring and formatting (works best with terminal homebrew theme)
 export PS1="\[\033[0;37m\] \w \[\033[31m\]\`ruby -e \"print (%x{git branch 2> /dev/null}.each_line.grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`\[\033[37m\]$\[\033[00m\] "
+
+# print ip address
+alias ip='ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2'
